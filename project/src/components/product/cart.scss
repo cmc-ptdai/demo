@@ -1,0 +1,60 @@
+.cart {
+  &__box-img {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  &__box-text {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  &__box-count {
+    width: 82px;
+    text-align: center;
+    border: 1px solid #ccc;
+    button {
+      background-color: #fff;
+      width: 20px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      &:hover {
+        background-color: #ccc;
+      }
+    }
+    input {
+      text-align: center;
+      width: 40px;
+      border: none;
+    }
+  }
+  h2 {
+    margin: 15px;
+    text-align: right;
+  }
+  &__button {
+    &--pay {
+      float: right;
+    }
+  }
+
+}
+.ant-modal-footer {
+  display: none;
+}
+.btnSubmit {
+  padding: 5px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 75px;
+}
+.ant-form-item-control-input-content {
+  display: flex;
+}
+.ant-notification {
+  margin-top: 50px;
+}
+.ant-notification-notice {
+  background-color: #ccc;
+}
