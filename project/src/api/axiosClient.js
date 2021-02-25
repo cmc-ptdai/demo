@@ -3,7 +3,7 @@ import queryString from 'query-string'
 
 const axiosClient = axios.create({
   // https://5ff81fd710778b0017042d79.mockapi.io/api
-  baseURL: 'http://localhost:3004',
+  baseURL: 'https://5ff81fd710778b0017042d79.mockapi.io/api',
   paramsSerializer: params => queryString.stringify(params)
 })
 
